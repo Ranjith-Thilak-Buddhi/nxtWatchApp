@@ -36,7 +36,7 @@ export const GamingIconContainer = styled.div`
   background-color: ${props => (props.isDark ? '#0f0f0f' : '#e2e8f0')};
 `
 
-export const GamingTitle = styled.h1`
+export const GamingTitle = styled.p`
   color: ${props => (props.isDark ? 'white' : '#1e293b')};
   margin-left: 20px;
   font-family: 'Roboto';

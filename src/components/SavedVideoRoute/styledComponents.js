@@ -32,7 +32,7 @@ export const SavedVideoIconContainer = styled.div`
   background-color: ${props => (props.isDark ? '#0f0f0f' : '#e2e8f0')};
 `
 
-export const SavedVideoTitle = styled.h1`
+export const SavedVideoTitle = styled.p`
   color: ${props => (props.isDark ? 'white' : '#1e293b')};
   margin-left: 20px;
   font-family: 'Roboto';
